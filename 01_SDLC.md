@@ -1,58 +1,90 @@
-# SDLC Overview
-Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.
-
-1. SDLC is the acronym of Software Development Life Cycle.
-2. It is also called as Software Development Process.
-3. SDLC is a framework defining tasks performed at each step in the software development process.
-4. ISO/IEC 12207 is an international standard for software life-cycle processes. It aims to be the standard that defines all the tasks required for developing and maintaining software.
-
-## What is SDLC?
-SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. The life cycle defines a methodology for improving the quality of software and the overall development process.
-
-The following figure is a graphical representation of the various stages of a typical SDLC.
-
-![image](https://user-images.githubusercontent.com/84008107/218711233-2d48431a-15dc-4988-9e65-fd1195018116.png)
-
-A typical Software Development Life Cycle consists of the following stages −
-
-### Stage 1: Planning and Requirement Analysis
-Requirement analysis is the most important and fundamental stage in SDLC. It is performed by the senior members of the team with inputs from the customer, the sales department, market surveys and domain experts in the industry. This information is then used to plan the basic project approach and to conduct product feasibility study in the economical, operational and technical areas.
-
-Planning for the quality assurance requirements and identification of the risks associated with the project is also done in the planning stage. The outcome of the technical feasibility study is to define the various technical approaches that can be followed to implement the project successfully with minimum risks.
-
-### Stage 2: Defining Requirements
-Once the requirement analysis is done the next step is to clearly define and document the product requirements and get them approved from the customer or the market analysts. This is done through an SRS (Software Requirement Specification) document which consists of all the product requirements to be designed and developed during the project life cycle.
-
-### Stage 3: Designing the Product Architecture
-SRS is the reference for product architects to come out with the best architecture for the product to be developed. Based on the requirements specified in SRS, usually more than one design approach for the product architecture is proposed and documented in a DDS - Design Document Specification.
-
-This DDS is reviewed by all the important stakeholders and based on various parameters as risk assessment, product robustness, design modularity, budget and time constraints, the best design approach is selected for the product.
-
-A design approach clearly defines all the architectural modules of the product along with its communication and data flow representation with the external and third party modules (if any). The internal design of all the modules of the proposed architecture should be clearly defined with the minutest of the details in DDS.
-
-### Stage 4: Building or Developing the Product
-In this stage of SDLC the actual development starts and the product is built. The programming code is generated as per DDS during this stage. If the design is performed in a detailed and organized manner, code generation can be accomplished without much hassle.
-
-Developers must follow the coding guidelines defined by their organization and programming tools like compilers, interpreters, debuggers, etc. are used to generate the code. Different high level programming languages such as C, C++, Pascal, Java and PHP are used for coding. The programming language is chosen with respect to the type of software being developed.
-
-### Stage 5: Testing the Product
-This stage is usually a subset of all the stages as in the modern SDLC models, the testing activities are mostly involved in all the stages of SDLC. However, this stage refers to the testing only stage of the product where product defects are reported, tracked, fixed and retested, until the product reaches the quality standards defined in the SRS.
-
-### Stage 6: Deployment in the Market and Maintenance
-Once the product is tested and ready to be deployed it is released formally in the appropriate market. Sometimes product deployment happens in stages as per the business strategy of that organization. The product may first be released in a limited segment and tested in the real business environment (UAT- User acceptance testing).
-
-Then based on the feedback, the product may be released as it is or with suggested enhancements in the targeting market segment. After the product is released in the market, its maintenance is done for the existing customer base.
-
-## SDLC Models
-There are various software development life cycle models defined and designed which are followed during the software development process. These models are also referred as Software Development Process Models". Each process model follows a Series of steps unique to its type to ensure success in the process of software development.
-
-Following are the most important and popular SDLC models followed in the industry −
-
-1. Waterfall Model
-2. Iterative Model
-3. Spiral Model
-4. V-Model
-5. Big Bang Model
+# SDLC -Methodologies
+ 
+**SDLC (Software Developement Life Cycle)**
+It is a process which is followed by IT industry to design ,develop , test and deploy software application.
+There are various teams (Development , Testing , Operation etc.)are involved to transform customer requirement into a high-quality complete software product.
+![image](https://github.com/kmitsolution/SDLC/assets/84008107/b838520b-8ad6-4c9d-b701-89d2e4dfac58)
 
 
-Other related methodologies are Agile Model, RAD Model, Rapid Application Development and Prototyping Models.
+## Phases of SDLC
+![image](https://github.com/kmitsolution/SDLC/assets/84008107/2c226a30-7184-4b7d-8085-52341c5865e9)
+
+
+
+
+
+**Requirement Phase**:- This phase comes after planning of the application, this phase is of SDLC is gathering maximum information from the client requirements for the product. Discuss each detail and specification of the product with the customer.
+
+**Design**:-In the design phase (3rd step of SDLC), the program developer scrutinizes whether the prepared software suffices all the requirements of the end-user.
+
+**Development**:- In this phase developer decides best approach to design technically and then choose programming Language to develop the application
+
+**Testing**:-Once the developers build the software, then it is deployed in the testing environment. Then the testing team tests the functionality of the entire system.
+
+**Implementation**:-Once the testing is done, and the product is ready for deployment, it is released for customers to use.
+
+**Maintenance**:-The actual problem starts when the customer actually starts using the developed system and those needs to be solved from time to time.
+
+## Methodology for SDLC
+1. WaterFall
+2. Agile
+3. DevOps
+
+## Waterfall Methodology
+
+
+![image](https://github.com/kmitsolution/SDLC/assets/84008107/cf051494-d3fe-4b9d-b1ca-da1431e5b80c)
+
+1. It was first SDLC Process model .
+2. Linear Sequential life cycle model.
+3. The whole process is divided into separate phases.
+4. In this model, outcome of one phase act as input for the next phase sequentially.
+5. Until the first stage is not finished, the next stage will not start.
+
+### Advantages
+
+1. Product definition is stable.
+2. Requirements , Process and results are well documented, fixed and clear.
+3. No ambiguous requirement.
+4. Specific Deadlines.
+
+### Disadvantages
+
+1. Not a good model for complex projects.
+2. Not suitable for long or ongoing projects.
+3. Not suitable for the projects where requirements are at a moderate to high risk of changing.
+4. Difficult to measure the progress within the stages.
+
+## Agile Methodology
+
+![image](https://github.com/kmitsolution/SDLC/assets/84008107/778dd598-2355-40fe-a180-ff0431e55c96)
+
+
+1. It is an iterative and incremental process model.
+2. Divides the project into small incremental builds.
+3. Each iteration is about one week to 3 weeks.
+4. Each iteration involves different cross functional teams.
+5. At the end of each iteration the product is reviewed with customer or other stakeholders.
+6. It focuses the process adaptability and customer satisfaction.
+
+### Advantages
+
+1. Collaboration with different teams which promotes team work and cross training skills.
+2. Suitable for fixed and changing requirements.
+3. Functionality can be developed rapidly and demonstrated.
+4. Give flexibility to developers.
+
+### Disadvantages
+
+1. An overall plan, an agile leader and agile PM practice is a must without which it will not work.
+2. Depends heavily on customer interaction, so if customer is not clear, team can be driven in the wrong direction.
+3. Because of very less documentation, transfer of technology to a new team member is quite challenging.
+4. Because it is heavily dependent on customer interaction, in case customer is not clear about requirement then project can be driven to wrong direction.
+
+## DevOps
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+
+![image](https://github.com/kmitsolution/SDLC/assets/84008107/4f5ef1b4-e55a-40c2-83ce-53a093b7a15f)
+
+
+
